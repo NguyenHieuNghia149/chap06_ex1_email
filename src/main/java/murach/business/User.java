@@ -8,6 +8,8 @@ public class User implements Serializable {
     private String lastName;
     private String email;
 
+
+
     public User() {
         firstName = "";
         lastName = "";
@@ -42,7 +44,6 @@ public class User implements Serializable {
     public void setEmail(String email) {
         this.email = email;
     }
-
 
 }
 
